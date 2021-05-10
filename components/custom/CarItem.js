@@ -12,7 +12,7 @@ const CarItem = (props) => {
             <Text style={styles.title}>Model S</Text>
             <Text style={styles.subTitle}>Starting at $69, 420</Text>
          </View>
-         <StyleButton />
+         <StyleButton type="secondary"/>
       </View>
    )
 }
