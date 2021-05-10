@@ -25,7 +25,8 @@ image: {
       height: "100%",
       resizeMode: 'cover',
       position: "absolute",
-}
+   },
+
 
 })
 
