@@ -6,7 +6,7 @@ import CarItem from './components/custom/CarItem'
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarItem />
+      <CarItem  />
       <StatusBar style="auto" />
     </View>
   );
