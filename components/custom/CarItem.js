@@ -5,6 +5,10 @@ import StyleButton from './stylebutton'
 
 
 const CarItem = (props) => {
+
+
+   
+
    return (
       <View style={styles.carContainer}>
          <ImageBackground style={styles.image} source={require('../../assets/img/ModelS.jpeg')} />
@@ -12,7 +16,12 @@ const CarItem = (props) => {
             <Text style={styles.title}>Model S</Text>
             <Text style={styles.subTitle}>Starting at $69, 420</Text>
          </View>
-         <StyleButton type="secondary"/>
+         <StyleButton type='primary' content={'Custom order'} onPress={() => {
+            console.warn('Custom order was pressed')
+         }} />
+         <StyleButton type='secondary' content={'Existing inventory'} onPress={() => {
+            console.warn('Existing inventory was pressed')
+         }} />
       </View>
    )
 }
