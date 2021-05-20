@@ -16,6 +16,9 @@ title: {
       fontSize: 40,
       fontWeight: 'bold',
 },
+subTitleCTA: {
+      textDecorationLine: 'underline',
+},
 subTitle: {
       fontSize: 16,
       color: 'gray',
@@ -26,7 +29,11 @@ image: {
       resizeMode: 'cover',
       position: "absolute",
    },
-
+   buttonContainer: {
+      position: 'absolute',
+      bottom: 50,
+      width: '100%'
+   }
 
 })
 
